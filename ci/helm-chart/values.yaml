@@ -69,11 +69,11 @@ extraArgs: []
   # rather than two separate arguments (e.g. "- --param value" on a line).
 
 # Optional additional environment variables
-extraVars: []
-  #- name: DISABLE_TELEMETRY
-  #  value: true
-  #- name: PASSWORD
-  # value: password
+extraVars: 
+  - name: DISABLE_TELEMETRY
+    value: true
+  - name: PASSWORD
+    value: password
 
 ##
 ## Init containers parameters:
