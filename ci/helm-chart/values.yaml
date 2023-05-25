@@ -70,8 +70,8 @@ extraArgs: []
 
 # Optional additional environment variables
 extraVars: [
-  name: PASSWORD
-  value: password
+  - name: PASSWORD
+    value: password
 ]
 #  - name: DISABLE_TELEMETRY
 #    value: true
