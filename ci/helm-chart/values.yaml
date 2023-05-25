@@ -72,8 +72,6 @@ extraArgs: []
 extraVars: 
   - name: DISABLE_TELEMETRY
     value: true
-  - name: PASSWORD
-    value: password
 
 ##
 ## Init containers parameters:
